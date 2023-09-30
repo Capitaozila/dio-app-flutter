@@ -6,7 +6,7 @@ void main() {
   double saldo = valor;
 
   if (valor > 0) {
-    stdout.write('Deposito realizado com sucesso! Saldo atual: ${saldo.toStringAsFixed(2)}');
+    stdout.write('Deposito realizado com sucesso!\nSaldo atual: R\$ ${saldo.toStringAsFixed(2)}\n');
   } else if (valor == 0) {
     stdout.write('Encerrando o programa...\n');
   } else {
